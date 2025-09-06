@@ -8,6 +8,3 @@ This project is a Fake News Detection System that predicts whether a news headli
 - **Web Verification**: Uses Google Custom Search API (100 free queries/day) to validate news against credible sources (e.g., BBC, NDTV, Reuters).
 - **Streamlit UI**: Polished interface with result cards, example headlines, and a warning for BERT overconfidence on fake news.
 - **Evaluation**: Metrics and confusion matrices for BERT, Logistic Regression, Random Forest, and Naive Bayes models.
-
-<img src=""C:\Users\Himanshi\Desktop\FakeNewsDetection\cm_bert.png"" alt="Logo" width="200"/>
-   
