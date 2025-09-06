@@ -62,8 +62,8 @@ def predict_bert(text):
 # Web verification with Google Custom Search API
 def verify_web(text):
     try:
-        api_key = "AIzaSyBe9iAM9HeIbTvmCebS2RaeOBQnz2wVXG8"  
-        cx = "f7b75ea3a324e4079"  
+        api_key = "Enter your api key"  
+        cx = "enter ypur SE key"  
         
         # Construct search query
         query = text[:100].replace(' ', '+').replace('’', '%27')
@@ -144,3 +144,4 @@ if st.button('Predict'):
 
 # Footer
 st.markdown('<div class="footer">Built with Streamlit by Himanshi | Fake News Detection Project, 2025</div>', unsafe_allow_html=True)
+
